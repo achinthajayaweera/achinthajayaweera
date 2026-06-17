@@ -2,11 +2,14 @@ name: Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours automatically
-  workflow_dispatch:           # allows manual trigger from Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -21,7 +24,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-pink.svg?color_snake=pink&color_dots=#c8f542,#2a6b25,#1a3a1a,#0e0e0e
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
