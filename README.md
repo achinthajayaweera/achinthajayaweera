@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:a8e63d,100:d4f542&fontColor=ffffff&text=Hey,%20I'm%20Achintha%20👋&fontSize=40&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:a8e63d,100:d4f542&fontColor=ffffff&text=Hey,%20I'm%20Achintha%20&fontSize=40&animation=fadeIn"/>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=a8e63d&width=900&size=22&center=true&lines=Software+Engineering+Undergraduate+%F0%9F%8E%93;Full+Stack+Developer+%7C+UI%2FUX+Designer+%F0%9F%9A%80;React+%7C+React+Native+%7C+TypeScript+%7C+Python;Top+Rated+Freelancer+on+Fiverr+%26+Upwork+%E2%AD%90;Always+learning%2C+always+shipping!" alt="Typing SVG"/>
