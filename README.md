@@ -19,7 +19,7 @@
 ```diff
 + const achintha = {
 +   role        : "Software Engineering Undergraduate @ University of Westminster",
-+   location    : "Colombo, Sri Lanka 🇱🇰",
++   location    : "Nugegoda, Sri Lanka 🇱🇰",
 +   freelance   : "Top Rated Seller - Fiverr & Upwork (100+ international projects)",
 +   stack       : ["React", "Next.js", "React Native", "TypeScript", "Python", "Node.js"],
 +   mobile      : ["Flutter", "Dart", "Expo", "React Native"],
