@@ -84,7 +84,7 @@
 | Project | Description | Stack |
 |:---|:---|:---|
 | 💊 [MediFind](https://github.com/achinthajayaweera/medifind_app-SDGP) | Cross-platform pharmacy locator with Google Maps, OCR prescription upload & health profile | Flutter, Dart, Google Maps API |
-| 🛣️ [HighwayGo LK](https://github.com/achinthajayaweera/highwaygo-lk) | Full-stack highway bus booking app with live GPS tracking & dual user roles | React Native, Expo, Node.js |
+| 🛣️ [HighwayBusk Booking](https://github.com/achinthajayaweera/highwaygo-lk) | Full-stack highway bus booking app with live GPS tracking & dual user roles | React Native, Expo, Node.js |
 | 🌿 [Plant Disease Detection](https://github.com/achinthajayaweera/plant_disease_detection) | AI-powered plant disease detection across 26 disease classes with 87,000+ training images | Python, TensorFlow, Keras |
 | 🎬 [Movie Recommender ML App](https://github.com/achinthajayaweera) | Full-stack ML web app using cosine similarity & TMDB API with real-time autocomplete | Python, FastAPI, React.js |
 | 🖼️ [JavaScript Image Filters](https://github.com/achinthajayaweera/JavaScript-Image-Filters) | Browser-based image filter application | JavaScript |
@@ -104,7 +104,7 @@
 ### 🎓 Education & Certifications
 
 - 🏫 **BSc (Hons) Software Engineering** — University of Westminster via IIT Colombo *(Ongoing)*
-- 📜 Google AI Essentials — Google via Coursera *(Jun 2026)*
+- 📜 Went to Thurstan College - Colombo 07*
 - 📜 Crash Course on Python — Google via Coursera *(Jun 2026)*
 - 📜 Preparing for Associate Cloud Engineer — Google Cloud via Coursera *(Jun 2026)*
 
@@ -117,7 +117,6 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-a8e63d?style=for-the-badge&logo=google-chrome&logoColor=000)](https://achinthajayaweera.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/achinthajayaweera)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/achintha-jayaweera)
-[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com)
 
 </div>
 
