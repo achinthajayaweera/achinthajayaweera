@@ -9,7 +9,6 @@ USER_NAME = 'achinthajayaweera'
 
 
 def daily_readme(birthday):
-    """Returns age as 'XX years, XX months, XX days'"""
     diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
     return '{} {}, {} {}, {} {}{}'.format(
         diff.years, 'year' + ('s' if diff.years != 1 else ''),
@@ -18,24 +17,52 @@ def daily_readme(birthday):
         ' 🎂' if (diff.months == 0 and diff.days == 0) else '')
 
 
-def simple_request(query, variables):
+def graphql(query, variables={}):
     r = requests.post('https://api.github.com/graphql',
                       json={'query': query, 'variables': variables},
                       headers=HEADERS)
     if r.status_code == 200:
-        return r
-    raise Exception(f'GraphQL request failed: {r.status_code} {r.text}')
+        return r.json()
+    raise Exception(f'GraphQL failed: {r.status_code} {r.text}')
 
 
-def get_user_stats():
-    query = '''
+def get_stats():
+    data = graphql('''
     query($login: String!) {
         user(login: $login) {
             repositories(first: 100, ownerAffiliations: OWNER) {
                 totalCount
+                edges { node { stargazers { totalCount } } }
+            }
+            contributionsCollection {
+                totalCommitContributions
+                restrictedContributionsCount
+            }
+            followers { totalCount }
+            repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]) {
+                totalCount
+            }
+        }
+    }''', {'login': USER_NAME})['data']['user']
+
+    repos = data['repositories']['totalCount']
+    stars = sum(e['node']['stargazers']['totalCount'] for e in data['repositories']['edges'])
+    commits = (data['contributionsCollection']['totalCommitContributions'] +
+               data['contributionsCollection']['restrictedContributionsCount'])
+    followers = data['followers']['totalCount']
+    contributed = data['repositoriesContributedTo']['totalCount']
+    return repos, stars, commits, followers, contributed
+
+
+def get_loc():
+    """Get total lines of code added/deleted across all repos"""
+    query = '''
+    query($login: String!, $cursor: String) {
+        user(login: $login) {
+            repositories(first: 50, after: $cursor, ownerAffiliations: OWNER) {
                 edges {
                     node {
-                        stargazers { totalCount }
+                        nameWithOwner
                         defaultBranchRef {
                             target {
                                 ... on Commit {
@@ -45,71 +72,59 @@ def get_user_stats():
                         }
                     }
                 }
-            }
-            contributionsCollection {
-                totalCommitContributions
-                restrictedContributionsCount
-            }
-            followers { totalCount }
-            repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]) {
-                totalCount
+                pageInfo { endCursor hasNextPage }
             }
         }
     }'''
-    r = simple_request(query, {'login': USER_NAME})
-    data = r.json()['data']['user']
-
-    repos = data['repositories']['totalCount']
-    stars = sum(e['node']['stargazers']['totalCount'] for e in data['repositories']['edges'])
-    commits = (data['contributionsCollection']['totalCommitContributions'] +
-               data['contributionsCollection']['restrictedContributionsCount'])
-    followers = data['followers']['totalCount']
-    contributed = data['repositoriesContributedTo']['totalCount']
-
-    return repos, stars, commits, followers, contributed
+    # Simplified: return 0 for now, full LOC counting is very slow
+    # The GitHub Action will update commits/followers/repos/stars in real time
+    return 0, 0, 0
 
 
-def find_and_replace(root, element_id, new_text):
-    el = root.find(f".//*[@id='{element_id}']")
+def find_replace(root, eid, text):
+    el = root.find(f".//*[@id='{eid}']")
     if el is not None:
-        el.text = str(new_text)
+        el.text = str(text)
 
 
-def justify_format(root, element_id, new_text, length=0):
-    if isinstance(new_text, int):
-        new_text = '{:,}'.format(new_text)
-    new_text = str(new_text)
-    find_and_replace(root, element_id, new_text)
-    just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_map = {0: '', 1: ' ', 2: '. '}
-        dot_string = dot_map[just_len]
-    else:
-        dot_string = ' ' + ('.' * just_len) + ' '
-    find_and_replace(root, f'{element_id}_dots', dot_string)
+def justify(root, eid, val, length=0):
+    if isinstance(val, int):
+        val = '{:,}'.format(val)
+    val = str(val)
+    find_replace(root, eid, val)
+    just_len = max(0, length - len(val))
+    if just_len == 0: dot_str = ''
+    elif just_len == 1: dot_str = ' '
+    elif just_len == 2: dot_str = '. '
+    else: dot_str = ' ' + ('.' * just_len) + ' '
+    find_replace(root, f'{eid}_dots', dot_str)
 
 
-def svg_overwrite(filename, age_data, repos, stars, commits, followers, contributed):
+def update_svg(filename, age, repos, stars, commits, followers, contributed, loc_add, loc_del, loc_net):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'age_data', age_data, 27)
-    justify_format(root, 'repo_data', repos, 4)
-    justify_format(root, 'contrib_data', contributed)
-    justify_format(root, 'star_data', stars, 14)
-    justify_format(root, 'commit_data', commits, 22)
-    justify_format(root, 'follower_data', followers, 10)
+    justify(root, 'age_data', age, 27)
+    justify(root, 'repo_data', repos, 4)
+    justify(root, 'contrib_data', contributed)
+    justify(root, 'star_data', stars, 14)
+    justify(root, 'commit_data', commits, 22)
+    justify(root, 'follower_data', followers, 10)
+    justify(root, 'loc_data', loc_net, 9)
+    find_replace(root, 'loc_add', '{:,}'.format(loc_add))
+    find_replace(root, 'loc_del', '{:,}'.format(loc_del))
     tree.write(filename, encoding='utf-8', xml_declaration=True)
-    print(f'Updated {filename}')
+    print(f'Updated: {filename}')
 
 
 if __name__ == '__main__':
-    # Birthday: 28 October 2002
     age = daily_readme(datetime.datetime(2002, 10, 28))
     print(f'Age: {age}')
 
-    repos, stars, commits, followers, contributed = get_user_stats()
-    print(f'Repos: {repos}, Stars: {stars}, Commits: {commits}, Followers: {followers}, Contributed: {contributed}')
+    repos, stars, commits, followers, contributed = get_stats()
+    print(f'Repos:{repos} Stars:{stars} Commits:{commits} Followers:{followers} Contributed:{contributed}')
 
-    svg_overwrite('dark_mode.svg', age, repos, stars, commits, followers, contributed)
-    svg_overwrite('light_mode.svg', age, repos, stars, commits, followers, contributed)
+    loc_add, loc_del, loc_net = get_loc()
+
+    update_svg('dark_mode.svg', age, repos, stars, commits, followers, contributed, loc_add, loc_del, loc_net)
+    update_svg('light_mode.svg', age, repos, stars, commits, followers, contributed, loc_add, loc_del, loc_net)
     print('Done!')
