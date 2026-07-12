@@ -5,22 +5,25 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'  # runs every day at midnight UTC
-  workflow_dispatch:      # allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dateutil lxml Pillow
+        run: pip install requests python-dateutil lxml
 
       - name: Run today.py
         env:
@@ -32,5 +35,5 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add dark_mode.svg light_mode.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update README stats"
+          git diff --staged --quiet || git commit -m "Update README stats"
           git push
