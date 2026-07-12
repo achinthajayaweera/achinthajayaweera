@@ -11,17 +11,17 @@ text,tspan{white-space:pre;}
 </style>
 <rect width="1208px" height="579px" fill="#f6f8fa" rx="15"/>
 <text font-size="12px" font-family="Consolas,monospace">
-<tspan x="11" y="34" xml:space="preserve"></tspan>
-<tspan x="11" y="48" xml:space="preserve"></tspan>
-<tspan x="11" y="63" xml:space="preserve"></tspan>
-<tspan x="11" y="77" xml:space="preserve"></tspan>
-<tspan x="11" y="92" xml:space="preserve"></tspan>
-<tspan x="11" y="106" xml:space="preserve"></tspan>
-<tspan x="11" y="121" xml:space="preserve"></tspan>
-<tspan x="11" y="135" xml:space="preserve"></tspan>
-<tspan x="11" y="150" xml:space="preserve"></tspan>
-<tspan x="11" y="165" xml:space="preserve"></tspan>
-<tspan x="11" y="179" xml:space="preserve"></tspan>
+<tspan x="11" y="34" xml:space="preserve"/>
+<tspan x="11" y="48" xml:space="preserve"/>
+<tspan x="11" y="63" xml:space="preserve"/>
+<tspan x="11" y="77" xml:space="preserve"/>
+<tspan x="11" y="92" xml:space="preserve"/>
+<tspan x="11" y="106" xml:space="preserve"/>
+<tspan x="11" y="121" xml:space="preserve"/>
+<tspan x="11" y="135" xml:space="preserve"/>
+<tspan x="11" y="150" xml:space="preserve"/>
+<tspan x="11" y="165" xml:space="preserve"/>
+<tspan x="11" y="179" xml:space="preserve"/>
 <tspan x="11" y="194" xml:space="preserve"><tspan fill="#8A1111">,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</tspan></tspan>
 <tspan x="11" y="208" xml:space="preserve"><tspan fill="#8A1111">,</tspan><tspan fill="#881010">,,,,,,,,,,,,,,,,,,,,,</tspan><tspan fill="#881111">,,,</tspan><tspan fill="#832E2E">,</tspan><tspan fill="#171917"> </tspan><tspan fill="#111111"> </tspan><tspan fill="#0E0D0D"> </tspan><tspan fill="#111111"> </tspan><tspan fill="#281B1C">.</tspan><tspan fill="#151515"> </tspan><tspan fill="#171817"> </tspan><tspan fill="#7E3231">,</tspan><tspan fill="#881313">,</tspan><tspan fill="#881211">,</tspan><tspan fill="#881010">,</tspan><tspan fill="#881312">,</tspan><tspan fill="#881111">,,</tspan><tspan fill="#881010">,,,,,,,,,,,,,,,,,,,,,,,,</tspan><tspan fill="#8A1111">,</tspan></tspan>
 <tspan x="11" y="223" xml:space="preserve"><tspan fill="#8A1111">,</tspan><tspan fill="#881010">,,,,,,,,,,,,,,,</tspan><tspan fill="#8A1212">,</tspan><tspan fill="#8B1C1C">,</tspan><tspan fill="#151215"> </tspan><tspan fill="#171517"> </tspan><tspan fill="#151515">  </tspan><tspan fill="#1E1E1E">.</tspan><tspan fill="#111111"> </tspan><tspan fill="#0D0C0D"> </tspan><tspan fill="#131211"> </tspan><tspan fill="#191619"> </tspan><tspan fill="#151415"> </tspan><tspan fill="#0D0D0D">  </tspan><tspan fill="#111111"> </tspan><tspan fill="#1D191D">.</tspan><tspan fill="#0A0A0A"> </tspan><tspan fill="#050605"> </tspan><tspan fill="#090909"> </tspan><tspan fill="#2B2B2B">.</tspan><tspan fill="#151215"> </tspan><tspan fill="#0D0D0D"> </tspan><tspan fill="#1C1A16"> </tspan><tspan fill="#161616"> </tspan><tspan fill="#0D0D0D"> </tspan><tspan fill="#252326">.</tspan><tspan fill="#1E1D1F">.</tspan><tspan fill="#353435">,</tspan><tspan fill="#8D211E">,</tspan><tspan fill="#891311">,</tspan><tspan fill="#881010">,,</tspan><tspan fill="#8A1111">,</tspan><tspan fill="#881010">,,,,,,,,,,,,,,,</tspan><tspan fill="#8A1111">,</tspan></tspan>
@@ -50,10 +50,10 @@ text,tspan{white-space:pre;}
 <tspan x="11" y="558" xml:space="preserve"><tspan fill="#8A1111">,</tspan><tspan fill="#881010">,,,,,,</tspan><tspan fill="#7F1E1C">,</tspan><tspan fill="#191919"> </tspan><tspan fill="#111011"> </tspan><tspan fill="#0D0D0D"> </tspan><tspan fill="#0A0C0A"> </tspan><tspan fill="#100D10"> </tspan><tspan fill="#070907"> </tspan><tspan fill="#090909"> </tspan><tspan fill="#0A0B0A"> </tspan><tspan fill="#090909">  </tspan><tspan fill="#030302"> </tspan><tspan fill="#0F100F"> </tspan><tspan fill="#0D0D0D"> </tspan><tspan fill="#090909"> </tspan><tspan fill="#030303"> </tspan><tspan fill="#050502"> </tspan><tspan fill="#0A0605"> </tspan><tspan fill="#0F0906"> </tspan><tspan fill="#150F08"> </tspan><tspan fill="#140B08"> </tspan><tspan fill="#130E09"> </tspan><tspan fill="#120D09"> </tspan><tspan fill="#150E09"> </tspan><tspan fill="#1D120C"> </tspan><tspan fill="#2C180F">.</tspan><tspan fill="#3A251A">.</tspan><tspan fill="#5C3B30">,</tspan><tspan fill="#664637">,</tspan><tspan fill="#76503E">*</tspan><tspan fill="#8E6450">/</tspan><tspan fill="#885B44">*</tspan><tspan fill="#855A43">*</tspan><tspan fill="#A66F52">/</tspan><tspan fill="#AF795E">(</tspan><tspan fill="#A36F53">/</tspan><tspan fill="#855942">*</tspan><tspan fill="#42291C">.</tspan><tspan fill="#1D1918">.</tspan><tspan fill="#363439">,</tspan><tspan fill="#353437">,</tspan><tspan fill="#2C2A2D">.</tspan><tspan fill="#252828">.</tspan><tspan fill="#29292D">.</tspan><tspan fill="#303132">.</tspan><tspan fill="#282A2B">.</tspan><tspan fill="#27252A">.</tspan><tspan fill="#252429">.</tspan><tspan fill="#29292D">.</tspan><tspan fill="#29292B">.</tspan><tspan fill="#2D2C30">.</tspan><tspan fill="#252325">.</tspan><tspan fill="#262429">.</tspan><tspan fill="#29252A">.</tspan><tspan fill="#29272B">.</tspan><tspan fill="#252328">.</tspan><tspan fill="#29292C">.</tspan><tspan fill="#302F32">.</tspan></tspan>
 </text>
 <text font-size="13px" font-family="Consolas,monospace">
-<tspan x="515" y="20"><tspan class="hd">achintha@jayaweera &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;</tspan></tspan>
+<tspan x="515" y="20"><tspan class="hd">achintha@jayaweera ——————————————————————</tspan></tspan>
 <tspan x="515" y="48"><tspan class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">: .............. </tspan><tspan class="val">Windows 11, Android 15, iOS 18.5,</tspan></tspan>
 <tspan x="515" y="76"><tspan class="cc">. </tspan><tspan class="cc">                 </tspan><tspan class="val">macOS Sequoia 15, iPadOS 18.5, Linux</tspan></tspan>
-<tspan x="515" y="105"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots">: .................... </tspan><tspan class="val" id="age_data">22 years, 8 months, 10 days</tspan></tspan>
+<tspan x="515" y="105"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots"></tspan><tspan class="val" id="age_data">23 years, 8 months, 14 days</tspan></tspan>
 <tspan x="515" y="133"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">: ........ </tspan><tspan class="val">Software Engineering Undergraduate (IIT Colombo)</tspan></tspan>
 <tspan x="515" y="161"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan><tspan class="cc">: .................... </tspan><tspan class="val">VSCode, IntelliJ IDEA, Cursor</tspan></tspan>
 <tspan x="515" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Programming</tspan><tspan class="cc">: ... </tspan><tspan class="val">TypeScript, Python, Dart, JavaScript</tspan></tspan>
@@ -61,14 +61,14 @@ text,tspan{white-space:pre;}
 <tspan x="515" y="246"><tspan class="cc">. </tspan><tspan class="cc">                     </tspan><tspan class="val">FastAPI, Node.js</tspan></tspan>
 <tspan x="515" y="275"><tspan class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc">: ........... </tspan><tspan class="val">English (Fluent), Sinhala (Native)</tspan></tspan>
 <tspan x="515" y="303"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan><tspan class="cc">: ........... </tspan><tspan class="val">Lifting Weights, Swimming, Hiking, Traveling</tspan></tspan>
-<tspan x="515" y="332"><tspan class="hd">- Contact &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;</tspan></tspan>
+<tspan x="515" y="332"><tspan class="hd">- Contact ———————————————————————————</tspan></tspan>
 <tspan x="515" y="360"><tspan class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .............. </tspan><tspan class="val">achinthajayaweera26@gmail.com</tspan></tspan>
 <tspan x="515" y="388"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ........... </tspan><tspan class="val">achintha-jayaweera</tspan></tspan>
 <tspan x="515" y="417"><tspan class="cc">. </tspan><tspan class="key">Portfolio</tspan><tspan class="cc">: .......... </tspan><tspan class="val">achinthajayaweera.com</tspan></tspan>
 <tspan x="515" y="445"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ............. </tspan><tspan class="val">achinthajayaweera</tspan></tspan>
-<tspan x="515" y="473"><tspan class="hd">- GitHub Stats &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;</tspan></tspan>
-<tspan x="515" y="502"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots">: .... </tspan><tspan class="val" id="repo_data">18</tspan><tspan class="hd"> {Contributed: </tspan><tspan class="val" id="contrib_data">18</tspan><tspan class="hd">} | Stars</tspan><tspan class="cc" id="star_data_dots">: ....... </tspan><tspan class="val" id="star_data">0</tspan></tspan>
-<tspan x="515" y="530"><tspan class="cc">. </tspan><tspan class="key">Contributions</tspan><tspan class="cc" id="commit_data_dots">: ........ </tspan><tspan class="val" id="commit_data">0</tspan><tspan class="hd"> | Followers</tspan><tspan class="cc" id="follower_data_dots">: .... </tspan><tspan class="val" id="follower_data">0</tspan></tspan>
-<tspan x="515" y="559"><tspan class="cc">. </tspan><tspan class="key">Lines of Code</tspan><tspan class="cc" id="loc_data_dots">: . </tspan><tspan class="val" id="loc_data">0</tspan><tspan class="hd"> ( </tspan><tspan class="add" id="loc_add">0</tspan><tspan class="add">++</tspan><tspan class="hd">, </tspan><tspan class="del" id="loc_del">0</tspan><tspan class="del">-- </tspan><tspan class="hd">)</tspan></tspan>
+<tspan x="515" y="473"><tspan class="hd">- GitHub Stats ———————————————————————</tspan></tspan>
+<tspan x="515" y="502"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots">. </tspan><tspan class="val" id="repo_data">18</tspan><tspan class="hd"> {Contributed: </tspan><tspan class="val" id="contrib_data">2</tspan><tspan class="hd">} | Stars</tspan><tspan class="cc" id="star_data_dots"> ......... </tspan><tspan class="val" id="star_data">0</tspan></tspan>
+<tspan x="515" y="530"><tspan class="cc">. </tspan><tspan class="key">Contributions</tspan><tspan class="cc" id="commit_data_dots"> .......... </tspan><tspan class="val" id="commit_data">2,249</tspan><tspan class="hd"> | Followers</tspan><tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="val" id="follower_data">0</tspan></tspan>
+<tspan x="515" y="559"><tspan class="cc">. </tspan><tspan class="key">Lines of Code</tspan><tspan class="cc" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">183,471</tspan><tspan class="hd"> ( </tspan><tspan class="add" id="loc_add">201,870</tspan><tspan class="add">++</tspan><tspan class="hd">, </tspan><tspan class="del" id="loc_del">18,399</tspan><tspan class="del">-- </tspan><tspan class="hd">)</tspan></tspan>
 </text>
 </svg>
