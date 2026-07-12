@@ -145,7 +145,7 @@ def justify(root, eid, val, length=0):
 def update_svg(filename, age, repos, stars, contributions, followers, contributed, loc_add, loc_del, loc_net):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify(root, 'age_data', age, 27)
+    find_replace(root, "age_data", age)
     justify(root, 'repo_data', repos, 4)
     justify(root, 'contrib_data', contributed)
     justify(root, 'star_data', stars, 10)
