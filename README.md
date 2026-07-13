@@ -1,4 +1,4 @@
-<img width="100%" src="[https://capsule-render.vercel.app/api?type=waving&height=120&color=0:a8e63d,100:d4f542&fontColor=ffffff&text=Hey,%20I'm%20Achintha%20&fontSize=40&animation=fadeIn](https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1e8c00,100:f5f500&fontColor=ffffff&text=Hey,%20I'm%20Achintha%20&fontSize=40&animation=fadeIn)"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1e8c00,100:f5f500&fontColor=ffffff&text=Hey,%20I'm%20Achintha%20&fontSize=40&animation=fadeIn"/>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&color=a8e63d&width=900&size=22&center=true&lines=Software+Engineering+Undergraduate+%F0%9F%8E%93;Full+Stack+Developer+%7C+UI%2FUX+Designer+%F0%9F%9A%80;React+%7C+React+Native+%7C+TypeScript+%7C+Python;Top+Rated+Freelancer+on+Fiverr+%26+Upwork+%E2%AD%90;Always+learning%2C+always+shipping!" alt="Typing SVG"/>
@@ -14,7 +14,7 @@
 
 ---
 
-###  About Me
+### About Me
 
 <a href="https://github.com/achinthajayaweera/achinthajayaweera">
   <picture>
@@ -114,11 +114,11 @@
 
 ### 💼 Experience
 
--  **Top Rated Freelance Animator** - Fiverr & Upwork *(Feb 2020 – Present)*
+- 🌟 **Top Rated Freelance Animator** — Fiverr & Upwork *(Feb 2020 – Present)*
   - 100+ international projects: motion graphics, branding visuals, promotional content
--  **Freelance Frontend Developer** - Upwork *(Feb 2022 – Present)*
+- 💻 **Freelance Frontend Developer** — Upwork *(Feb 2022 – Present)*
   - 20+ end-to-end projects: portfolios, dashboards, e-commerce stores, AI-powered platforms
--  **Social Designing Vice Chair** - IEEE Robotics & Automation Society *(May 2024)*
+- 🤖 **Social Designing Vice Chair** — IEEE Robotics & Automation Society *(May 2024)*
 
 ---
 
@@ -128,7 +128,7 @@
 - 🏫 Went to Thurstan College - Colombo 07
 - 📜 Google AI Essentials - Google via Coursera *(Jun 2026)*
 - 📜 Crash Course on Python - Google via Coursera *(Jun 2026)*
-- 📜 Preparing for Associate Cloud Engineer - Google Cloud via Coursera *(Jun 2026)*
+- 📜 Preparing for Associate Cloud Engineer — Google Cloud via Coursera *(Jun 2026)*
 
 ---
 
@@ -144,4 +144,4 @@
 
 <br/>
 
-<img width="100%" src="[https://capsule-render.vercel.app/api?type=waving&color=0:d4f542,100:a8e63d&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving&color=0:f5f500,100:1e8c00&height=120&section=footer)"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f5f500,100:1e8c00&height=120&section=footer"/>
