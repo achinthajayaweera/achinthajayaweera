@@ -14,7 +14,7 @@
 
 ---
 
-### 🧑‍💻 About Me
+###  About Me
 
 <a href="https://github.com/achinthajayaweera/achinthajayaweera">
   <picture>
@@ -25,7 +25,7 @@
 
 ---
 
-### ### 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 <div align="center">
 
@@ -115,17 +115,18 @@
 
 ### 💼 Experience
 
-- 🌟 **Top Rated Freelance Animator** — Fiverr & Upwork *(Feb 2020 – Present)*
+-  **Top Rated Freelance Animator** — Fiverr & Upwork *(Feb 2020 – Present)*
   - 100+ international projects: motion graphics, branding visuals, promotional content
-- 💻 **Freelance Frontend Developer** — Upwork *(Feb 2022 – Present)*
+-  **Freelance Frontend Developer** — Upwork *(Feb 2022 – Present)*
   - 20+ end-to-end projects: portfolios, dashboards, e-commerce stores, AI-powered platforms
-- 🤖 **Social Designing Vice Chair** — IEEE Robotics & Automation Society *(May 2024)*
+-  **Social Designing Vice Chair** — IEEE Robotics & Automation Society *(May 2024)*
 
 ---
 
 ### 🎓 Education & Certifications
 
 - 🏫 **BSc (Hons) Software Engineering** — University of Westminster via IIT Colombo *(Ongoing)*
+- 🏫 Went to Thurstan College - Colombo 07
 - 📜 Google AI Essentials — Google via Coursera *(Jun 2026)*
 - 📜 Crash Course on Python — Google via Coursera *(Jun 2026)*
 - 📜 Preparing for Associate Cloud Engineer — Google Cloud via Coursera *(Jun 2026)*
