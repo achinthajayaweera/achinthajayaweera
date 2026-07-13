@@ -25,7 +25,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+### ### 🛠️ Tech Stack
 
 <div align="center">
 
@@ -38,15 +38,33 @@
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redux.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Bootstrap.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SASS.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ThreeJS-Dark.svg" />
 
 **Mobile & Backend**
 
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Flutter-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Dart-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/FastAPI.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MySQL-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Firebase-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Supabase-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg" />
+
+**AI & Data**
+
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TensorFlow-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PyTorch-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ScikitLearn-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/OpenCV-Dark.svg" />
 
 **Tools & Design**
 
@@ -54,7 +72,17 @@
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Github-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Figma-Dark.svg" />
 <img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/VSCode-Dark.svg" />
-<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/TensorFlow-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/IntelliJ-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AndroidStudio-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Xcode.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Postman.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Photoshop.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Illustrator.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AfterEffects.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Premiere.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Blender-Dark.svg" />
+<img width="45" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Linux-Dark.svg" />
 
 </div>
 
