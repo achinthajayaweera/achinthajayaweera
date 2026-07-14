@@ -128,7 +128,7 @@
 - 🏫 Went to Thurstan College - Colombo 07
 - 📜 Google AI Essentials - Google via Coursera *(Jun 2026)*
 - 📜 Crash Course on Python - Google via Coursera *(Jun 2026)*
-- 📜 Preparing for Associate Cloud Engineer — Google Cloud via Coursera *(Jun 2026)*
+- 📜 Preparing for Associate Cloud Engineer - Google Cloud via Coursera *(Jun 2026)*
 
 ---
 
@@ -136,9 +136,12 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-a8e63d?style=for-the-badge&logo=google-chrome&logoColor=000)](https://achinthajayaweera.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/achinthajayaweera)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/achintha-jayaweera)
+
+<br/>
+
+[![Portfolio Preview](https://raw.githubusercontent.com/achinthajayaweera/achinthajayaweera/main/portfolio-preview.gif)](https://achinthajayaweera.com/)
 
 </div>
 
