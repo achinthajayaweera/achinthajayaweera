@@ -14,7 +14,7 @@
 
 ---
 
-### About Me
+### 🧑‍💻 About Me
 
 <a href="https://github.com/achinthajayaweera/achinthajayaweera">
   <picture>
@@ -91,8 +91,8 @@
 
 <div align="center">
 
-| ![Achintha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=achinthajayaweera&show_icons=true&theme=github_dark&hide_border=true&icon_color=a8e63d&title_color=a8e63d) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=achinthajayaweera&layout=compact&theme=github_dark&hide_border=true&title_color=a8e63d) |
-| :-: | :-: |
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=achinthajayaweera&theme=github_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=achinthajayaweera&theme=github_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=achinthajayaweera&theme=github_dark&utcOffset=5.5) |
+| :-: | :-: | :-: |
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=achinthajayaweera&theme=github-dark-blue&hide_border=true&ring=a8e63d&fire=d4f542&currStreakLabel=a8e63d)](https://git.io/streak-stats)
 
@@ -124,11 +124,11 @@
 
 ### 🎓 Education & Certifications
 
-- 🏫 **BSc (Hons) Software Engineering** - University of Westminster via IIT Colombo *(Ongoing)*
-- 🏫 Went to Thurstan College - Colombo 07
-- 📜 Google AI Essentials - Google via Coursera *(Jun 2026)*
-- 📜 Crash Course on Python - Google via Coursera *(Jun 2026)*
-- 📜 Preparing for Associate Cloud Engineer - Google Cloud via Coursera *(Jun 2026)*
+- 🏫 **BSc (Hons) Software Engineering** — University of Westminster via IIT Colombo *(Ongoing)*
+- 🏫 Went to Thurstan College — Colombo 07
+- 📜 Google AI Essentials — Google via Coursera *(Jun 2026)*
+- 📜 Crash Course on Python — Google via Coursera *(Jun 2026)*
+- 📜 Preparing for Associate Cloud Engineer — Google Cloud via Coursera *(Jun 2026)*
 
 ---
 
