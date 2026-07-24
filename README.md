@@ -14,7 +14,7 @@
 
 ---
 
-### 🧑‍💻 About Me
+### 🧑‍💻About Me
 
 <a href="https://github.com/achinthajayaweera/achinthajayaweera">
   <picture>
